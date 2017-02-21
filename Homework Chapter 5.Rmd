@@ -1,0 +1,134 @@
+---
+title: "Chapter 5 Homework"
+author: "Janette Goodridge"
+date: "February 20, 2017"
+output:
+  word_document: default
+  html_document: default
+---
+
+###5.1
+Description    |  Receive P at Time  |  Give sec at time  |  P Received
+------------   |  ------------------  |  ----------------  |  ----------------
+Outright Sale  |          0           |        0           |    $S_0$ at time 0
+Fully Lev Sale |          T           |        0           |    $S_0* e^{rt}$ at time T
+Prepd Fwd      |          0           |        T           |        ?
+Forward        |          T           |        T           |   ? * $e^{rt}$
+
+###5.2
+$$
+  a) 50-[(1*e^{-.015*1})+(1*e^{-.015*2})+(1*e^{-.015*3})+(1*e^{-.015*4})] = 46.15
+$$  
+$$
+  b) 46.15*e^{.06*1} = 49.00
+$$
+
+###5.3
+
+$$
+  a) 50*e^{-.08*1} = 46.16
+$$
+$$
+  b)50*e^{(.06-.08)*1} = 49.01
+$$
+
+###5.4
+
+$$
+  a) 35*e^{.05*.5} = 35.89
+$$
+$$
+  b) \frac{1}{.5}*ln \frac{35.50}{35} = .028
+$$
+$$
+  c) 35.5 = 35*e^{(.02-\delta)*.5} = .0216
+$$
+
+###5.6
+
+$$
+  a) 1100*e^{(.05-.015)*.75} = 1129.26
+$$
+  b) I would short sell the index, and enter into a long forward position.
+  
+  c) I would buy the underlying asset, and sell it forward. 
+
+
+###5.7
+
+  a) The no arbitrage price would be $1127.85, so if the observed price is $1135,       I would sell the forward.  
+  b)  The no arbitrage price would be $1127.85, so if the observed price is $1115,       I would buy the forward.  
+  
+###5.8
+
+  a)  The no arbitrage price would be $1116.62, so if the observed price is $1120,
+      I would sell the forward.  
+  b)  The no arbitrage price would be $1116.62, so if the observed price is $1110,       I would buy the forward.  
+  
+###5.9
+
+  a)  Because the rate is so high in 1981, you would travel to 1981 and buy a           bunch of T bills, then you'd travel back to 1982 to collect the profit.
+  b)  I would expect interest rates to go down.  
+  c)  I can conclude that it won't be possible or someone would have already taken       advantage of it.  
+
+###5.11
+
+$$
+  a) 1200*250*4 = 1,200,000
+$$
+$$
+  b) 1,200,000*.1 = 120,000
+$$
+
+###5.15
+
+$$
+  a1)  F^+ = 800*e^{.055*1} = 845.23
+$$
+$$
+  a2)  F^- = 800*e^{.05*1} = 841.02
+$$
+$$
+  b1) F^+ = 800 + 1*e^{.055*1} = 846.29
+$$
+$$
+  b2) F^- = 800-1 * e^{.05*1} = 839.97
+$$
+$$
+  c1) F^+ = 800+1+2.4*e^{.055*1}=848.82
+$$
+$$
+  c2) F^- = 800-1-2.4*e^{.05*1}=837.44
+$$
+$$
+  d1) F^+ = 800+2.4+1*e^{.055*1} +2.4 = 851.22
+$$
+$$
+  d2) F^- = 800-2.4-1*e^{.05*1} -2.4 = 835.04
+$$
+$$
+  e1) F^+ = 800+2*(800*.003)+1*e^{.055*1}= 851.36
+$$
+$$
+  e2) F^- = 800-2*(800*.003)-1*e^{.05*1}=834.92 
+$$
+
+###5.16
+
+$$
+  a) 875*e^{.0475*1} = 917.57
+$$
+
+$$
+  b1) contracts= \frac{800,000}{218,750}*1.1=4.023 
+$$
+
+
+  b2) Because the correlation is 1, you would get the risk free rate, which is         4.75 percent.  
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
