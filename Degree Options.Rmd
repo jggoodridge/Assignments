@@ -1,0 +1,37 @@
+---
+title: "Degrees"
+author: "Janette Goodridge"
+date: "February 27, 2017"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+5 Degree Programs I would go long
+=================================
+
+>> - Engineering, especially Petroleum
+>>
+>> - Nursing
+>>
+>> - Computer Science
+>>
+>> - Acturial Math/Science
+>>
+>> - Physics
+
+5 Degree Programs I would go short
+==================================
+
+>> - Folklore
+
+>> - Fine Arts
+
+>> - Social Work
+
+>> - US History
+
+>> - Performing Arts
+
+I am basing my decisions soley on the fact that these degrees are the highest/lowest demand and highest/lowest paying.  This is not a reflection of my personal opinion of the value of these careers.  While researching this topic, I found an interesting discrepancy.  Elementary Education has one of the lowest unemployment rates, meaning it is in high demand, yet it is also one of the lowest paying jobs.
+
